@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+	
+    <style>
+        /* Add your custom CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: lightblue;
+            margin: 0;
+            padding: 120px;
+        }
+        .container {
+            max-width: 1000px;
+			max-height: 1000px;
+            margin: auto;
+            background: #FFCCCB;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            margin-bottom: 20px;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+	
+</head>
+<body>
+
+<div class="container">
+    <center><h2><u>Contact Us</u></h2></center>
+    <p><i>If you have any questions, feedback, or inquiries, please feel free to contact us using the below links:</i></p>
+	<p><b>Satyaprakash Singh -----></b><a href="#">singh.satyaprakash@kgce.edu.in</a> </p>
+	<p><b>Jayesh Shelar ------></b><a href="#">shelar.jayesh@kgce.edu.in</a></p>
+	<p><b>Sahil Mane ------></b><a href="#">mane.sahil.kgce.edu.in</a></p>
+	<p><b>Prathamesh Patil -----></b><a href="#">patil.prathamesh@kgce.edu.in</a></p>
+   
+</div>
+<script>
+  (function (w, d, s, o, f, js, fjs) {
+    w["botsonic_widget"] = o;
+    w[o] =
+      w[o] ||
+      function () {
+        (w[o].q = w[o].q || []).push(arguments);
+      };
+    (js = d.createElement(s)), (fjs = d.getElementsByTagName(s)[0]);
+    js.id = o;
+    js.src = f;
+    js.async = 1;
+    fjs.parentNode.insertBefore(js, fjs);
+  })(window, document, "script", "Botsonic", "https://widget.writesonic.com/CDN/botsonic.min.js");
+  Botsonic("init", {
+    serviceBaseUrl: "https://api-azure.botsonic.ai",
+    token: "339b5664-b829-4eed-8830-a37fc6b35529",
+  });
+</script>
+</body>
+</html>
